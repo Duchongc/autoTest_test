@@ -150,7 +150,7 @@ STATICFILES_DIRS = (
     os.path.join(HERE, 'static/'),
 )
 
-#���ݿ����
+
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 
 
